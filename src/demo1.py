@@ -57,6 +57,9 @@ def calc7():
             if a[y] > a[y + 1]:
                 a[y], a[y + 1] = a[y + 1], a[y]
     return a
+
+def calc8():
+    print("ceshi================")
                 
 if __name__ == '__main__':
     print(calc(4))
